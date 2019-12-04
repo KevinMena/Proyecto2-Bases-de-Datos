@@ -144,3 +144,10 @@ VALUES (0, 'Franela AEROPOSTALE', 'Franela azul muy comoda de usar', 'Talla M', 
         (27, 'Franela AEROPOSTALE', 'Franela azul muy comoda de usar', 'Talla M', 1),
         (28, 'Franela AEROPOSTALE', 'Franela azul muy comoda de usar', 'Talla M', 1),
         (29, 'Franela AEROPOSTALE', 'Franela azul muy comoda de usar', 'Talla M', 1);
+
+INSERT INTO subasta (id_subasta, activa, fecha_ini, fecha_fin, precio_base, precio_reserva, precio_actual, bid_subida, id_vendedor, prod_vend)
+VALUES (0, TRUE, '16/08/2012', '26/08/2019', 5.0, 5.0, 5.0, 1.0, 0, 3),
+        (0, TRUE, '16/08/2012', '26/08/2019', 5.0, 5.0, 5.0, 1.0, 0, 3),
+        (0, TRUE, '16/08/2012', '26/08/2019', 5.0, 5.0, 5.0, 1.0, 0, 3),
+        (0, TRUE, '16/08/2012', '26/08/2019', 5.0, 5.0, 5.0, 1.0, 0, 3),
+        (0, TRUE, '16/08/2012', '26/08/2019', 5.0, 5.0, 5.0, 1.0, 0, 3);
